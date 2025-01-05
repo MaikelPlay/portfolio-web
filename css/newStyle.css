@@ -143,5 +143,7 @@
     .skills {
         padding: 20px 30px;
     }
-
+    .skills-list{
+        font-size: 30px;
+    }
 }
