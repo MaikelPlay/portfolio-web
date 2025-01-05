@@ -1,0 +1,136 @@
+.logo img{
+    margin: 0;
+    padding-top: 20px;
+    margin-bottom: -8px;
+}
+
+.bi-house-door {
+    font-size: 25px;
+}
+
+.color-primary {
+    color:  #6E4EF2;
+}
+.text-pretitle {
+    font-family: "Public Sans", sans-serif;
+    font-size: 22px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /* Evita que el texto salte a otra línea */
+}
+
+.typewriter {
+    display: block;
+    white-space: nowrap;
+    border-right: 3px solid rgba(255, 166, 0, 0.791); 
+    width: 24ch; /* Ajusta el número de caracteres del texto */
+    animation: typing 4s steps(18), blink .5s step-end infinite alternate;
+    overflow: hidden; /* Oculta el texto que aún no "se escribe" */
+}
+
+/* Animación de escribir */
+@keyframes typing {
+    from { width: 0; } /* Comienza desde 0 caracteres */
+}
+
+/* Animación de reset */
+@keyframes blink {
+    50% {
+        border-color: transparent; }
+}
+
+@keyframes fadeToTransparent {
+    0% {
+        color: #6E4EF2; /* Color inicial */
+    }
+    50% {
+        color: rgba(110, 78, 242, 0.5); /* Color intermedio con opacidad */
+    }
+    100% {
+        color: transparent; /* Color final */
+    }
+}
+
+.intro-social li {
+    display: flex;
+        gap: 5px;
+    }
+
+
+.contact-block{
+        margin: 0px 15px;
+    }
+
+
+    .keys-xl {
+        font-size: 1.3em;
+        white-space: nowrap;
+        width: 2ch; /* Ajusta el número de caracteres del texto */
+        animation: fadeToTransparent 1s infinite; /* Aplica la animación automáticamente */
+        overflow: hidden; /* Oculta el texto que aún no "se escribe" */
+    }
+
+    .keys {
+        
+        white-space: nowrap;
+        width: 2ch; /* Ajusta el número de caracteres del texto */
+        animation: fadeToTransparent 1s infinite; /* Aplica la animación automáticamente */
+        overflow: hidden; /* Oculta el texto que aún no "se escribe" */
+    }
+
+
+
+.mr-6 {
+    margin-right: 6px;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.gap-3 {
+    gap: 3px;
+}
+
+.mb-7 {
+    margin-bottom: 7px;
+}   
+.px-6 {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.icons-section{
+    margin-top: 40px;
+}
+
+
+.skills-carrusel{
+    gap: 40px;
+}
+
+
+    .skills {
+    padding: 29px 40px;
+    border-radius: 16px;
+    background: linear-gradient( #2727304f, #141516 ) padding-box, #141516 border-box;
+    border: 2px solid transparent;
+    
+    }
+
+    .skills:hover {
+        border: 2px solid #6f4ef200;
+        background: linear-gradient( #2727304f, #141516 ) padding-box, linear-gradient( #414194, #141516 ) border-box;
+        }
+    
+  
