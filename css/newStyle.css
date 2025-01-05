@@ -120,7 +120,7 @@
 }
 
 
-    .skills {
+.skills {
     padding: 29px 40px;
     border-radius: 16px;
     background: linear-gradient( #2727304f, #141516 ) padding-box, #141516 border-box;
@@ -128,9 +128,20 @@
     
     }
 
-    .skills:hover {
-        border: 2px solid #6f4ef200;
-        background: linear-gradient( #2727304f, #141516 ) padding-box, linear-gradient( #414194, #141516 ) border-box;
-        }
-    
-  
+.skills:hover {
+    border: 2px solid #6f4ef200;
+    background: linear-gradient( #2727304f, #141516 ) padding-box, linear-gradient( #414194, #141516 ) border-box;
+}
+
+@media (max-width: 768px) { 
+    .skills-icons img {
+        width: 50px;
+    }
+    .skills-carrusel {
+        gap: 20px;
+    }
+    .skills {
+        padding: 20px 30px;
+    }
+
+}
